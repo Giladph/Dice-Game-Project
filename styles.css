@@ -1,0 +1,176 @@
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 5px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  text-align: center;
+  color: #4ECCA3;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 40%;
+
+}
+
+button{
+
+    background-color: #393E46; /* Background color */
+    color: #4ECCA3; /* Text color */
+    margin-top:20px;
+    padding: 10px 20px; /* Padding for better appearance */
+    border: 2px solid #4ECCA3; /* Border style and color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions on hover */
+    
+}
+
+
+footer {
+  /* margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 5px; */
+  /* position:absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom :5px;;
+  margin-top: 2.3%;
+
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #4ECCA3; /* Background color on hover */
+  color: #393E46; /* Text color on hover */
+  border-color: #393E46; /* Border color on hover */
+}
+
+
+
+
+@media (max-width: 500px ){
+
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size:1.2rem;
+    color: #4ECCA3;
+  }
+  
+  .dice {
+  
+    text-align: center;
+    display: inline-block;
+    width: 20%; /* Set a fixed width for each dice image container */
+    margin: 30px; /* Add margin for spacing between dice images */
+    
+  
+  }
+
+  .dice>p{
+    margin-right: 50%; 
+    
+
+  }
+
+  .diceDiv{
+    text-align: center;
+
+  }
+
+
+  p {
+    margin:50;
+    font-size: 1.1rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  #score2,#score1{
+    margin-left:30px;
+    
+  }
+
+  #p1,#p2{
+    margin-left:10px;
+    justify-content: center;
+      text-align: center;
+      display: inline-block;
+    
+  }
+  img{
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+@media (max-height: 500px ) and (orientation:landscape){
+  h1{
+font-size: 20px;
+  }
+  .dice {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 20%; /* Set a fixed width for each dice image container */
+    
+    
+  
+  }
+
+  p {
+    margin:50;
+    font-size: 1rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  button{
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  /* footer {
+    margin-top: 60px;
+
+  
+  } */
+}
